@@ -3,14 +3,37 @@ import { jsx, Container, Flex, Button } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import { Link } from 'react-scroll';
 import Logo from 'components/logo';
-import LogoDark from 'assets/logo.svg';
+import LogoImg from 'assets/logo.svg';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
 
 export default function Header({ className }) {
   return (
-      <h1>Header</h1>
-  );
+      <header sx={styles.header} className={className} od="header">
+        <Container sx={styles.container}>
+          <Logo src={LogoImg} />
+          <Flex as="nav" sx={styles.nav} >
+            {menuItems.map((menuItem,key)=>
+            (
+              <Link
+                activeClass = "active"
+                to={menuItem.path}
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                key={key}
+              >
+                {menuItem.label}
+
+
+              </Link>
+            ))}
+          </Flex>
+          <Button className="start_btn" variant="secondary" aria-label="Get Started"> Get Started</Button>
+        </Container>
+      </header>
+    );
 }
 
 const positionAnim = keyframes`
