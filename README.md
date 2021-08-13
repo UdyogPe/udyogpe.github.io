@@ -2,6 +2,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+npm run dev for running server 
+npm ci and npm install for installing
+npm run develop and then npm run export to update out folder
+
+
 First, run the development server:
 
 ```bash
