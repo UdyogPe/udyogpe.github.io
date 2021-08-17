@@ -35,6 +35,7 @@ export default function Footer() {
 
 const styles = {
   footer: {
+    background:'#63a4ff',
     footerBottomArea: {
       borderTop: '1px solid',
       borderTopColor: 'border_color',
@@ -58,7 +59,7 @@ const styles = {
     link: {
       fontSize: [1, '15px'],
       color: 'text',
-      fontWeight: '400',
+      fontWeight: '700',
       mb: 2,
       cursor: 'pointer',
       transition: 'all 0.35s',
@@ -73,6 +74,7 @@ const styles = {
     copyright: {
       fontSize: [1, '15px'],
       width: '100%',
+      fontWeight: '500',
     },
   },
 };
