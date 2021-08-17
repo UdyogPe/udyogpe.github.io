@@ -14,9 +14,9 @@ export default function Banner() {
           UdyogPe
           </Heading>
           <Text as="p" variant="heroSecondary">
-            "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+            We pay your Contractors, you pay us
           </Text>
-          <Button variant="primary">Explore</Button>
+          <Button variant="primary">Get Started</Button>
         </Box>
 
         <Box sx={styles.banner.imageBox}>
