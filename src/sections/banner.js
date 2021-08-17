@@ -11,11 +11,10 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-          Lorem Ipsum
+          UdyogPe
           </Heading>
           <Text as="p" variant="heroSecondary">
             "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-            "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
           </Text>
           <Button variant="primary">Explore</Button>
         </Box>

@@ -3,7 +3,7 @@ import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
 import SectionHeader from 'components/section-header';
 import TeamCard from 'components/team-card';
-import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaInstagram, FaYoutubeSquare, FaVoicemail, FaMailBulk, FaMailchimp, FaInbox } from 'react-icons/fa';
 
 import Member1 from 'assets/team/member-1.png';
 import Member2 from 'assets/team/member-2.png';
@@ -14,85 +14,64 @@ const data = [
   {
     id: 1,
     imgSrc: Member1,
-    altText: 'Saimon Harmer',
-    title: 'Saimon Harmer',
-    designation: 'CEO and Founder',
+    altText: 'Vivek Jha',
+    title: 'Vivek Jha',
+    designation: 'Founder',
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
+        name: 'mail',
         path: '#',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: 'twitter',
-        path: '#',
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: 'instagram',
-        path: '#',
-        icon: <FaInstagram />,
-      },
+        icon: <FaInbox />,
+      }
     ],
   },
   {
     id: 2,
     imgSrc: Member2,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
+    altText: 'Utsav Singla',
+    title: 'Utsav Singla',
     designation: 'Founder',
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
+        name: 'mail',
         path: '#',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: 'twitter',
-        path: '#',
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: 'instagram',
-        path: '#',
-        icon: <FaInstagram />,
-      },
+        icon: <FaInbox />,
+      }
     ],
   },
   {
     id: 3,
     imgSrc: Member3,
-    altText: 'Aaron Nunez',
-    title: 'Aaron Nunez',
-    designation: 'Web Designer',
+    altText: 'Heemank Verma',
+    title: 'Heemank Verma',
+    designation: 'Technical Lead',
     socialProfile: [
       {
         id: 1,
-        name: 'facebook',
+        name: 'mail',
         path: '#',
-        icon: <FaFacebookF />,
-      },
-      {
-        id: 2,
-        name: 'twitter',
-        path: '#',
-        icon: <FaTwitter />,
-      },
-      {
-        id: 3,
-        name: 'instagram',
-        path: '#',
-        icon: <FaInstagram />,
-      },
+        icon: <FaInbox />,
+      }
     ],
   },
-  
+  {
+    id: 3,
+    imgSrc: Member3,
+    altText: 'Chirag Bansal',
+    title: 'Chirag Bansal',
+    designation: 'Collaboration Manager',
+    socialProfile: [
+      {
+        id: 1,
+        name: 'mail',
+        path: '#',
+        icon: <FaInbox />,
+      }
+    ],
+  },
+
 ];
 
 export default function TeamSection() {

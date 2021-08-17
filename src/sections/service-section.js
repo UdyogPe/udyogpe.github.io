@@ -14,23 +14,39 @@ import Secure from 'assets/services/secure.svg';
 
 const data = {
   subTitle: 'our services',
-  title: 'Business Goals Achieved with Design',
+  title: 'Why Companies choose UdyogPe?',
   features: [
     {
       id: 1,
       imgSrc: Smart,
-      altText: 'Smart Features',
-      title: 'Smart Features',
+      altText: 'Efficient and Fast Processing',
+      title: 'Efficient and Fast Processing',
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        'Get payment disbursal within 24 hours and allow direct payment to sub contractors.',
     },
     {
       id: 2,
       imgSrc: Secure,
       altText: 'Secure Contents',
-      title: 'Secure Contents',
+      title: 'No Surprise or Hidden Payment', 
       text:
-        'Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.',
+        "We'll never ask you to pay twice for a transaction, simply make the payment on credit dates.",
+    },
+    {
+      id: 3,
+      imgSrc: Smart,
+      altText: 'Secure Contents',
+      title: 'Manage your invoices the right way',
+      text:
+        'Providing you with instant Invoice approval system and Reminder for due date and even history of payments.',
+    },
+    {
+      id: 4,
+      imgSrc: Secure,
+      altText: 'Secure Contents',
+      title: 'Speed up your project',
+      text:
+        'Increase efficiency upto 40% by making early payments on the go.',
     },
   ],
 };

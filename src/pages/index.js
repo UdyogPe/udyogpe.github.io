@@ -21,11 +21,12 @@ export default function IndexPage() {
           <SEO title="UdyogPe" />
           <Banner />
           <KeyFeature />
+          <WorkFlow />
+          <br />
           <ServiceSection />
           <Feature />
-          <CoreFeature />
-          <WorkFlow />
-          <Package />
+          {/* <CoreFeature /> Not Removing for future use  */}
+          {/* <Package />     Not Removing for future use  */}
           <TeamSection />
           <TestimonialCard />
         </Layout>
