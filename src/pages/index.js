@@ -18,13 +18,13 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
         <Layout>
-          <SEO title="NextJS Landing Page" />
+          <SEO title="UdyogPe" />
           <Banner />
           <KeyFeature />
           <ServiceSection />
           <Feature />
-          <CoreFeature />
           <WorkFlow />
+          <CoreFeature />
           <Package />
           <TeamSection />
           <TestimonialCard />
