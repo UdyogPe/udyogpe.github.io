@@ -26,12 +26,6 @@ const data = [
         path: '#',
         icon: <FaInbox />,
       },
-      {
-        id: 2,
-        name: 'LinkedIn',
-        path: '#',
-        icon: <FaLinkedin />,
-      }
     ],
   },
   {
@@ -47,12 +41,6 @@ const data = [
         path: '#',
         icon: <FaInbox />,
       },
-      {
-        id: 2,
-        name: 'LinkedIn',
-        path: '#',
-        icon: <FaLinkedin />,
-      }
     ],
   },
   {
@@ -68,12 +56,6 @@ const data = [
         path: '#',
         icon: <FaInbox />,
       },
-      {
-        id: 2,
-        name: 'LinkedIn',
-        path: '#',
-        icon: <FaLinkedin />,
-      }
     ],
   },
   {
@@ -89,12 +71,6 @@ const data = [
         path: '#',
         icon: <FaInbox />,
       },
-      {
-        id: 2,
-        name: 'LinkedIn',
-        path: '#',
-        icon: <FaLinkedin />,
-      }
     ],
   },
 

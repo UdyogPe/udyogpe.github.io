@@ -22,9 +22,11 @@ export default function IndexPage() {
           <Banner />
           <br />
           <WorkFlow />
+          <br />
+          <br />
+          <Story /> 
           <KeyFeature />
           {/* <ServiceSection /> */}
-          <Story /> 
           {/* <CoreFeature /> Not Removing for future use  */}
           {/* <Package />     Not Removing for future use  */}
           <TeamSection />

@@ -13,11 +13,14 @@ export default function Story() {
         slogan="Some Insights"
         title="Our Story will Connect with you"
       />
+      <br />
       <Box sx={styles.paragraph}>
         {story[0]}
         <br />
         {story[1]}
         <br />
+        <br />
+
         {story[2]}
       </Box>
     </Container>
@@ -28,7 +31,6 @@ export default function Story() {
 const styles = {
   
   paragraph: {
-    backgroundColor: '#fffff'
-
+    textAlign: 'center'
   },
 };

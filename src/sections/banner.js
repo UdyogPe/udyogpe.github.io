@@ -14,7 +14,7 @@ export default function Banner() {
           UdyogPe
           </Heading>
           <Text as="p" variant="heroSecondary">
-            We pay your Contractors, you pay us
+          We are India's 1st early payment system for construction companies
           </Text>
           <Button variant="primary">Get Started</Button>
         </Box>
