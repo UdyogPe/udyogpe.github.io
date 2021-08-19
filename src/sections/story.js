@@ -20,7 +20,6 @@ export default function Story() {
         {story[1]}
         <br />
         <br />
-
         {story[2]}
       </Box>
     </Container>

@@ -26,7 +26,7 @@ export default function IndexPage() {
           <br />
           <Story /> 
           <KeyFeature />
-          {/* <ServiceSection /> */}
+          <ServiceSection />
           {/* <CoreFeature /> Not Removing for future use  */}
           {/* <Package />     Not Removing for future use  */}
           <TeamSection />
