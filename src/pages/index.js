@@ -23,8 +23,8 @@ export default function IndexPage() {
           <br />
           <WorkFlow />
           <KeyFeature />
-          <ServiceSection />
-          <Story />     Not Removing for future use 
+          {/* <ServiceSection /> */}
+          <Story /> 
           {/* <CoreFeature /> Not Removing for future use  */}
           {/* <Package />     Not Removing for future use  */}
           <TeamSection />
