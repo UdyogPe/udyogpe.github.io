@@ -14,8 +14,17 @@ export default function Logo({ src, ...rest }) {
         }}
         {...rest}
       >
-        <Image src={src} alt="UdyogPe Logo" />
+        <Image src={src} alt="UdyogPe Logo" variant={styles.avatar} />
 
       </Link>
   );
+}
+
+
+const styles = {
+  avatar: {
+    width: 28,
+    height: 28,
+    borderRadius: 99999,
+  },
 }
