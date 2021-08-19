@@ -10,27 +10,27 @@ import ArrowEven from 'assets/arrowEven.svg';
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
+    title: 'Quick Signup',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Signup as a contractor in 5 minutes',
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
+    title: 'Send Invoice Directly to company',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Upload and send your invoice to a company representative',
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: 'Representative Approves Invoice',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Company representative approves the uploaded invoice and approved amount',
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: 'Get Instant payment',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'Get 90% of approved amount instantly from UdyogPe and pay your bills',
   },
 ];
 

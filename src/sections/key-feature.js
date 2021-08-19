@@ -9,41 +9,33 @@ import Subscription from 'assets/key-feature/subscription.svg';
 import Support from 'assets/key-feature/support.svg';
 
 const data = {
-  subTitle: 'our services',
-  title: 'Why Companies choose UdyogPe?',
+  subTitle: 'our features',
+  title: 'Our Core Product features',
   features: [
   {
     id: 1,
     imgSrc: Performance,
-    altText: 'Efficient and Fast Processing',
-      title: 'Efficient and Fast Processing',
+    altText: 'Early Payments to Contractors',
+      title: 'Early Payments to Contractors',
       text:
-        'Get payment disbursal within 24 hours and allow direct payment to sub contractors.',
+        'With UdyogPe contractors can get early payment to their invoices and maintain the cashflow.',
   },
   {
     id: 2,
     imgSrc: Partnership,
     altText: 'Secure Contents',
-      title: 'No Surprise or Hidden Payment', 
+      title: 'Invoice Approval System', 
       text:
-        "We'll never ask you to pay twice for a transaction, simply make the payment on credit dates.",
+        "No more managing of invoices in folders, instant approval system for invoices and digital management.",
   },
   {
     id: 3,
     imgSrc: Subscription,
     altText: 'Secure Contents',
-      title: 'Manage your invoices the right way',
+      title: 'Easy Payment Options',
       text:
-        'Providing you with instant Invoice approval system and Reminder for due date and even history of payments.',
+        'Instant payment of invoices on due date with UdyogPe payment options',
   },
-  {
-    id: 4,
-    imgSrc: Support,
-    altText: 'Secure Contents',
-      title: 'Speed up your project',
-      text:
-        'Increase efficiency upto 40% by making early payments on the go.',
-    },
   ],
 };
 

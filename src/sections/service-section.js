@@ -22,8 +22,8 @@ const data = {
       altText: 'Efficient and Fast Processing',
       title: 'Efficient and Fast Processing',
       text:
-        'Get payment disbursal within 24 hours and allow direct payment to sub contractors.',
-    },
+        'Get payment disbursal within minutes and allow direct payment to sub contractors.',
+  },
     {
       id: 2,
       imgSrc: Secure,
@@ -46,7 +46,7 @@ const data = {
       altText: 'Secure Contents',
       title: 'Speed up your project',
       text:
-        'Increase efficiency upto 40% by making early payments on the go.',
+        'Increase speed of projects upto 40% by making instant payments with no interest.',
     },
   ],
 };
