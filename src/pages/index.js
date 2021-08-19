@@ -7,7 +7,7 @@ import Layout from 'components/layout';
 import Banner from '../sections/banner';
 import KeyFeature from '../sections/key-feature';
 import ServiceSection from '../sections/service-section';
-import Feature from '../sections/feature';
+import Story from '../sections/story';
 import CoreFeature from '../sections/core-feature';
 import WorkFlow from '../sections/workflow';
 import Package from '../sections/package';
@@ -24,7 +24,7 @@ export default function IndexPage() {
           <WorkFlow />
           <KeyFeature />
           <ServiceSection />
-          {/* <Feature />     Not Removing for future use  */}
+          <Story />     Not Removing for future use 
           {/* <CoreFeature /> Not Removing for future use  */}
           {/* <Package />     Not Removing for future use  */}
           <TeamSection />

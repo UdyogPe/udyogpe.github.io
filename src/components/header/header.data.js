@@ -4,12 +4,12 @@ export default [
     label: 'Home',
   },
   {
-    path: 'feature',
-    label: 'Features',
-  },
-  {
     path: 'workflow',
     label: 'Workflow',
+  },
+  {
+    path: 'feature',
+    label: 'Features',
   },
   {
     path: 'testimonial',

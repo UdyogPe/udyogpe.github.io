@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx, Container, Box, Image } from 'theme-ui';
 import TextFeature from 'components/text-feature';
-
+import SectionHeader from 'components/section-header';
 import FeatureThumb from 'assets/core-feature.png';
 import shapePattern from 'assets/shape-pattern2.png';
 
@@ -18,6 +18,10 @@ export default function CoreFeature() {
   return (
     <section sx={{ variant: 'section.coreFeature' }}>
     <Container sx={styles.containerBox}>
+      <SectionHeader
+        slogan="Quality features"
+        title="Amazing useful features"
+      />
       <Box sx={styles.contentBox}>
         <TextFeature
           subTitle={data.subTitle}
@@ -26,12 +30,6 @@ export default function CoreFeature() {
           btnName={data.btnName}
           btnURL={data.btnURL}
         />
-      </Box>
-      <Box sx={styles.thumbnail}>
-        <Image src={FeatureThumb} alt="Thumbnail" />
-        <Box sx={styles.shapeBox}>
-          <Image src={shapePattern} alt="Shape" />
-        </Box>
       </Box>
     </Container>
   </section>
