@@ -2,14 +2,14 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-  description = 'UdyogPe Home Page',
+  description = "India's 1st early payment system for construction companies.",
   author = 'Udyogpe Team',
   meta,
-  title = 'Start Using Udyogpe',
+  title = 'Udyogpe',
 }) {
   const metaData = [
     {
-      name: `description`,
+      name: `udyogpe`,
       content: description,
     },
     {
