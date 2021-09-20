@@ -36,6 +36,14 @@ const data = {
       text:
         'Instant payment of invoices on due date with UdyogPe payment options',
   },
+  {
+    id: 4,
+    imgSrc: Performance,
+    altText: 'Dynamic Credit Plan',
+      title: 'Dynamic Credit Plan',
+      text:
+        'Instant availability of Dynamic Credit Line for upto 20% of the work order.',
+  },
   ],
 };
 
