@@ -14,7 +14,7 @@ import Secure from 'assets/services/secure.svg';
 
 const data = {
   subTitle: 'our services',
-  title: 'Why Companies choose usususuus UdyogPe?',
+  title: 'Why Companies choose UdyogPe?',
   features: [
     {
       id: 1,
