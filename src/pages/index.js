@@ -29,7 +29,7 @@ export default function IndexPage() {
           <ServiceSection />
           {/* <CoreFeature /> Not Removing for future use  */}
           {/* <Package />     Not Removing for future use  */}
-          <TeamSection />
+          {/* <TeamSection /> */}
           <TestimonialCard />
         </Layout>
     </ThemeProvider>

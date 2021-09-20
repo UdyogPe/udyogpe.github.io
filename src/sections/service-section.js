@@ -14,7 +14,7 @@ import Secure from 'assets/services/secure.svg';
 
 const data = {
   subTitle: 'our services',
-  title: 'Why Companies choose UdyogPe?',
+  title: 'Why Companies choose usususuus UdyogPe?',
   features: [
     {
       id: 1,
@@ -62,7 +62,7 @@ export default function ServiceSection() {
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
           <Image src={ServiceThumb} alt="Thumbnail" />
-          <Button
+          {/* <Button
             sx={styles.videoBtn}
             onClick={handleClick}
             aria-label="Play Button"
@@ -70,11 +70,11 @@ export default function ServiceSection() {
             <span>
               <IoIosPlay />
             </span>
-          </Button>
-
+          </Button> */}
+{/* 
           <Box sx={styles.shapeBox}>
             <Image src={shapePattern} alt="Shape" />
-          </Box>
+          </Box> */}
         </Box>
         <Box sx={styles.contentBox}>
           <TextFeature subTitle={data.subTitle} title={data.title} />
@@ -93,12 +93,12 @@ export default function ServiceSection() {
           </Grid>
         </Box>
       </Container>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         isOpen={videoOpen}
         videoId="xvFZjo5PgG0"
         onClose={() => setVideoOpen(false)}
-      />
+      /> */}
     </section>
   );
 }
